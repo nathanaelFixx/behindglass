@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232427;
+  color: #E6E3D3;
+  font-family: 'Raleway', sans-serif;
+}
+
+.page {
+  text-align: center;
+}
+
+.page-link {
+  margin: 20px;
+}
+
+.page-link a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Removes the underline from links */
+}
+
+.page-link a:hover {
+  text-decoration: underline; /* Optional: add underline on hover for better user experience */
+}
+
+.non-clickable {
+  color: #474747;
+}
+
+.video-entry {
+  display: flex; /* Add this line */
+  align-items: center; /* This will vertically center-align the children */
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 20px;
+}
+
+.video-entry a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Removes the underline from links */
+}
+
+.video-entry a:hover {
+  text-decoration: underline; /* Optional: add underline on hover for better user experience */
+}
+
+.video-date {
+  margin-left: 10px;
+  color: #666; /* or any color you prefer */
+  font-size: 0.95em;
+}
